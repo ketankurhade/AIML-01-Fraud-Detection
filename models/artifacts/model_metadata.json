@@ -1,0 +1,32 @@
+{
+  "model_type": "xgboost",
+  "feature_names": [
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "error_balance_orig",
+    "error_balance_dest",
+    "orig_drain_ratio",
+    "orig_zero_balance_flag",
+    "dest_zero_balance_prior",
+    "type_CASH_OUT",
+    "type_CASH_IN",
+    "type_PAYMENT",
+    "type_TRANSFER",
+    "type_DEBIT"
+  ],
+  "num_features": 15,
+  "scale_pos_weight": 199.0,
+  "optimal_threshold": 0.5,
+  "metrics": {
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "f1_score": 1.0,
+    "recall": 1.0,
+    "precision": 1.0,
+    "train_duration_sec": 2.0473603999998886
+  },
+  "saved_at": "2026-11-08T09:38:42Z"
+}

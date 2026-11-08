@@ -1,0 +1,53 @@
+{
+  "is_drift_detected": false,
+  "drift_share": 0.0,
+  "number_of_drifted_features": 0,
+  "total_features_evaluated": 8,
+  "drifted_features": [],
+  "feature_metrics": {
+    "amount": {
+      "p_value": 0.1588,
+      "statistic": 0.0275,
+      "is_drifted": false
+    },
+    "oldbalanceOrg": {
+      "p_value": 0.7829,
+      "statistic": 0.016,
+      "is_drifted": false
+    },
+    "newbalanceOrig": {
+      "p_value": 0.2847,
+      "statistic": 0.0241,
+      "is_drifted": false
+    },
+    "oldbalanceDest": {
+      "p_value": 0.343,
+      "statistic": 0.0229,
+      "is_drifted": false
+    },
+    "newbalanceDest": {
+      "p_value": 0.9685,
+      "statistic": 0.012,
+      "is_drifted": false
+    },
+    "error_balance_orig": {
+      "p_value": 0.8766,
+      "statistic": 0.0144,
+      "is_drifted": false
+    },
+    "error_balance_dest": {
+      "p_value": 0.5865,
+      "statistic": 0.0189,
+      "is_drifted": false
+    },
+    "orig_drain_ratio": {
+      "p_value": 0.2418,
+      "statistic": 0.0251,
+      "is_drifted": false
+    }
+  },
+  "current_sample_count": 10000,
+  "reference_sample_count": 2000,
+  "report_html_path": "C:\\Users\\ketan\\Desktop\\ML1\\services\\monitoring\\drift_report.html",
+  "generated_at": "2026-11-08T15:33:15Z"
+}

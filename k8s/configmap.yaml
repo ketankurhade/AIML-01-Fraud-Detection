@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fraud-platform-config
+  namespace: fraud-platform
+  labels:
+    app.kubernetes.io/name: fraud-platform
+data:
+  LOG_LEVEL: "INFO"
+  KAFKA_BOOTSTRAP_SERVERS: "fraud-kafka:9092"
+  KAFKA_TOPIC_TRANSACTIONS: "transactions"
+  ENABLE_KAFKA_CONSUMER: "true"
+  FEAST_REPO_PATH: "/app/features"
+  PRODUCER_MODE: "http"
+  PRODUCER_TARGET_URL: "http://fraud-api-service:8000/api/v1/score"
+  PRODUCER_RATE: "5.0"
+  PRODUCER_LIMIT: "0"
+
